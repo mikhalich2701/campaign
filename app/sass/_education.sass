@@ -115,4 +115,44 @@
         display: flex
         justify-content: space-between
         margin-bottom: 30px
-    
+.event
+    padding-top: 62px
+    &__name
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 12px
+    &__info
+        display: flex
+        align-items: center
+        max-width: 335px
+        margin: 0 auto
+        padding: 18px
+        border-radius: 10px
+        background: #F3F5FE
+    &__day
+        margin-right: 20px
+        text-align: center
+        &--name
+            font-size: 10px
+            font-weight: 500
+        &--number
+            font-size: $h2
+            font-weight: bold
+            color: $accent
+    &__time
+        color: $text-color-double
+    &__descript
+        margin-bottom: 10px
+        color: $text-color-main
+        font-weight: 600
+    &__clock
+        margin-bottom: 10px
+    &__clock,&__adress
+        margin-bottom: 10px
+        display: flex
+        align-items: center
+    &__img
+        margin-right: 5px
+.mobile
+    display: none
