@@ -1,0 +1,118 @@
+@font-face {
+  font-family: ProximaNova;
+  src: url("../fonts/ProximaNova/proximanova-light-webfont.woff2") format("woff2"), url("../fonts/ProximaNova/proximanova-light-webfont.woff") format("woff"), url("../fonts/ProximaNova/proximanova-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../fonts/ProximaNova/proximanova-regular-webfont.woff2") format("woff2"), url("../fonts/ProximaNova/proximanova-regular-webfont.woff") format("woff"), url("../fonts/ProximaNova/proximanova-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url("../fonts/ProximaNova/proximanova-bold-webfont.woff2") format("woff2"), url("../fonts/ProximaNova/proximanova-bold-webfont.woff") format("woff"), url("../fonts/ProximaNova/proximanova-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/roboto-light-webfont.woff2") format("woff2"), url("../fonts/Roboto/roboto-light-webfont.woff") format("woff"), url("../fonts/Roboto/roboto-light-webfont.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/Roboto/roboto-regular-webfont.woff") format("woff"), url("../fonts/Roboto/roboto-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/Roboto/roboto-bold-webfont.woff") format("woff"), url("../fonts/Roboto/roboto-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CentoryGothic;
+  src: url("../fonts/CentoryGothic/centory-gothic.woff2") format("woff2"), url("../fonts/CentoryGothic/centory-gothic.woff") format("woff"), url("../fonts/CentoryGothic/centory-gothic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: CentoryGothic;
+  src: url("../fonts/CentoryGothic/centory-gothic-bold.woff2") format("woff2"), url("../fonts/CentoryGothic/centory-gothic-bold.woff") format("woff"), url("../fonts/CentoryGothic/centory-gothic-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa/Comfortaa-Light.woff2") format("woff2"), url("../fonts/Comfortaa/Comfortaa-Light.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.woff2") format("woff2"), url("../fonts/Comfortaa/Comfortaa-Regular.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa/Comfortaa-Medium.woff2") format("woff2"), url("../fonts/Comfortaa/Comfortaa-Medium.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa/Comfortaa-SemiBold.woff2") format("woff2"), url("../fonts/Comfortaa/Comfortaa-SemiBold.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("../fonts/Comfortaa/Comfortaa-Bold.woff2") format("woff2"), url("../fonts/Comfortaa/Comfortaa-Bold.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins/poppins-regular-webfont.woff2") format("woff2"), url("../fonts/Poppins/poppins-regular-webfont.woff") format("woff"), url("../fonts/Poppins/poppins-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins/poppins-medium-webfont.woff2") format("woff2"), url("../fonts/Poppins/poppins-medium-webfont.woff") format("woff"), url("../fonts/Poppins/poppins-medium-webfont.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins/poppins-semibold-webfont.woff2") format("woff2"), url("../fonts/Poppins/poppins-semibold-webfont.woff") format("woff"), url("../fonts/Poppins/poppins-semibold-webfont.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins/poppins-bold-webfont.woff2") format("woff2"), url("../fonts/Poppins/poppins-bold-webfont.woff") format("woff"), url("../fonts/Poppins/poppins-bold-webfont.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}

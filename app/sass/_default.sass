@@ -1,0 +1,158 @@
+
+// Custom v1.0 Default Stylesheet
+//  TOC:
+// 	a. Webfonts
+// 	b. Default Styles
+// 	   1. Basic
+// 	   2. Typography
+// 	   3. Links
+// 	   4. List
+// 	   5. Images
+// 	   6. Buttons
+// 	   7. Forms
+// 	c. Grid
+// 	d. Others
+
+// a. Webfonts 
+
+@import url("fonts.css")
+
+// b. Default and Basic Styles
+
+//    1. Basic
+
+*
+	box-sizing: border-box
+	&:before, &:after
+		box-sizing: border-box
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #fff
+body input:required:valid,
+body textarea:required:valid
+	color: #fff
+
+html, body
+	height: 100%
+
+body
+	font-size: $p
+	min-width: 320px
+	position: relative
+	color: $text-color-main
+	font-family: $default-font
+	font-weight: normal
+	overflow-x: hidden
+	background: url('../img/bg.jpg') center center no-repeat
+	background-size: cover
+	background-attachment: fixed
+
+//   2. Typography
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
+	font-family: $default-font
+	font-weight: bold
+
+h1, .h1
+	font-size: $h1
+
+h2, .h2
+	font-size: $h2	
+
+h3, .h3
+	font-size: $h3
+
+h4, .h4
+	font-size: $h4
+
+h5, .h5
+	font-size: $h5
+
+h6, .h6
+	font-size: $h6
+
+//   3. Links
+
+a, a:visited 
+   text-decoration: none
+   outline: 0
+   color: $link-color
+   transition: color .3s ease-in-out
+
+a:hover, a:focus
+	color: darken($link-color, 20%)
+
+//   4. List
+
+//   5. Images
+
+img 
+   max-width: 100%
+   height: auto
+
+//   6. Buttons
+
+.button,
+.button:visited,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]
+	display: flex
+	height: 25px
+	padding: 2px 20px
+	justify-content: center
+	align-items: center
+	background: #fff
+	text-decoration: none
+	letter-spacing: 0
+	color: $text-color-main
+	font-weight: 600
+	border: 1px solid transparent
+	cursor: pointer
+	transition: all .3s ease-in-out
+	border-radius: 13px
+	outline: none
+
+.button--double,
+.button--double:visited
+	color: $accent!important
+	border: 1px solid $accent!important
+
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover 
+	background: $text-color-light
+	color: #fff
+
+.button--double:hover
+	background: $accent
+	color: #fff!important
+
+.button:active,
+button:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active 
+	background: $text-color-light
+	color: #fff
+
+.button--double:active
+	background: $accent
+
+	/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner
+	border: 0
+	padding: 0
+
+//   7. Forms
+
+// c. Grid
+
+// d. Others
+
