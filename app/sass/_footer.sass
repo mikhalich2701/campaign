@@ -1,12 +1,19 @@
+/*==========  Footer  ==========*/
+    
 .footer
     padding: 35px 0
     color: $text-color-double
     background: #F4F4F4
+    @include r(576)
+        display: none
     &__navigate
         display: flex
     &__link
         margin: 0 20px
         color: $text-color-double
+        @include r(768)
+            margin: 0 5px
+
 .social
     display: flex
     justify-content: flex-end

@@ -14,12 +14,15 @@
 // 	d. Others
 
 // a. Webfonts 
+/*==========  Webfonts  ==========*/
 
 @import url("fonts.css")
 
 // b. Default and Basic Styles
+/*==========  Default and Basic Styles  ==========*/
 
 //    1. Basic
+/*==========  Basic  ==========*/
 
 *
 	box-sizing: border-box
@@ -49,6 +52,7 @@ body
 	background-attachment: fixed
 
 //   2. Typography
+/*==========  Typography  ==========*/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
 	font-family: $default-font
@@ -56,6 +60,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6
 
 h1, .h1
 	font-size: $h1
+	@include r(768)
+		font-size: $h2
 
 h2, .h2
 	font-size: $h2	
@@ -73,6 +79,7 @@ h6, .h6
 	font-size: $h6
 
 //   3. Links
+/*==========  Links  ==========*/
 
 a, a:visited 
    text-decoration: none
@@ -86,12 +93,14 @@ a:hover, a:focus
 //   4. List
 
 //   5. Images
+/*==========  Images  ==========*/
 
 img 
    max-width: 100%
    height: auto
 
 //   6. Buttons
+/*==========  Buttons  ==========*/
 
 .button,
 .button:visited,
@@ -150,9 +159,14 @@ input::-moz-focus-inner
 	border: 0
 	padding: 0
 
-//   7. Forms
+//   7. Add class
+/*==========  Add class  ==========*/
 
-// c. Grid
-
-// d. Others
+.transform
+	transform-origin: center center
+	transform: rotate(90deg)
+	span:last-child
+		transform: rotate(-60deg) translate(10px, 2px)
+	span:nth-child(2)
+		transform: rotate(60deg) translate(-2px, 8px)
 
