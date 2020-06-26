@@ -39,7 +39,7 @@ body {
   min-width: 320px;
   position: relative;
   color: #000000;
-  font-family: "Poppins", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: normal;
   background: url("../img/bg.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -61,7 +61,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Poppins", Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
